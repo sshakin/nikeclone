@@ -1,0 +1,43 @@
+*{
+    font-family: "Blippo, fantasy";
+    font-style: bold;
+    font-variant: small-caps;
+}
+.color{
+    background-color: aquamarine;
+}
+.card img:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+.card:hover{
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.5);
+    transition: 0.5s ease-in-out;
+}
+.text1{
+    color: rgb(211, 243, 179);
+}
+.text2{
+    font-family: Blippo, fantasy;
+}
+.text3{
+    font-style: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text5{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.text6{
+    color: sienna;
+}
+#Service {
+    margin-top: 10px;
+  }
+  #Contact {
+    margin-top: 30px;
+  }
+  
