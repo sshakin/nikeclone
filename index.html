@@ -34,10 +34,75 @@
             </ul>
         </div>
         <div class="d-flex">
-            <button class="btn btn-outline-light me-3" type="submit">Login</button>
-            <button class="btn btn-outline-light" type="submit">Sign Up</button>
+            <button class="btn btn-outline-light me-3" type="submit" data-bs-target="#Login-one" data-bs-toggle="modal">Login</button>
+            <button class="btn btn-outline-light" type="submit" data-bs-target="#signup-model" data-bs-toggle="modal">Sign Up</button>
         </div>
     </div>
+    <div class="modal fix-modeltop " id="Login-one" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content model-color">
+          <div class="modal-header">
+            <h5 class="modal-title">Login</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check
+                -label" for="exampleCheck1">Check me out</label>
+              </div>
+              <button type="submit" class="btn btn-danger">Submit</button>
+              <button type="reset" class="btn btn-danger">Forget Password</button>
+            </form>
+            </div>            
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>    
+  </div>
+  <div class="modal model-zindex " id="signup-model" tabindex="-1" z-index="1500">
+    <div class="modal-dialog ">
+      <div class="modal-content model-color">
+        <div class="modal-header">
+          <h5 class="modal-title">Signup</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label">Password</label>
+              <input type="password" class="form-control" id="password" required>
+            </div>
+            <div class="mb-3">
+              <label for="confirmPassword" class="form-label">Confirm Password</label>
+              <input type="password" class="form-control" id="confirmPassword" required>
+            </div>
+            <button type="submit" class="btn btn-danger">Submit</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+    </div>
 </nav>
 
 </section>
